@@ -1,15 +1,11 @@
 fileFormatVersion: 2
-guid: dc30d32dfd381c74696ef208ae149567
-timeCreated: 1512236395
+guid: b9aae8fa3a103e041b9e61a314febd1a
+timeCreated: 1512329744
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: bird_0
-    21300002: bird_1
-    21300004: bird_2
-    21300006: bird_3
-    21300008: bird_4
-    21300010: bird_5
+    21300000: aspargus_0
+    21300002: aspargus_1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -48,11 +44,11 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 800
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -106,87 +102,44 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bird_0
+      name: aspargus_0
       rect:
         serializedVersion: 2
         x: 0
         y: 339
-        width: 453
-        height: 645
-      alignment: 9
-      pivot: {x: 0.8427646, y: 0.17682509}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bird_1
-      rect:
-        serializedVersion: 2
-        x: 494
-        y: 778
-        width: 643
-        height: 417
-      alignment: 9
-      pivot: {x: 0.9598064, y: 0.0868381}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bird_2
-      rect:
-        serializedVersion: 2
-        x: 1191
-        y: 695
-        width: 541
-        height: 401
-      alignment: 9
-      pivot: {x: 0.16581029, y: 0.21356855}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bird_3
-      rect:
-        serializedVersion: 2
-        x: 602
-        y: 253
-        width: 493
-        height: 493
+        width: 229
+        height: 354
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -9.5, y: 177}
+        - {x: -92.5, y: 26}
+        - {x: -114.5, y: -54}
+        - {x: -114.5, y: -140}
+        - {x: -49.5, y: -177}
+        - {x: 114.5, y: -177}
+        - {x: 114.5, y: -28.556976}
+        - {x: 82.17616, y: 87.06598}
+        - {x: 0.5, y: 177}
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bird_4
+      name: aspargus_1
       rect:
         serializedVersion: 2
-        x: 1185
-        y: 449
-        width: 189
-        height: 185
-      alignment: 9
-      pivot: {x: 0.27491912, y: 0.9024091}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bird_5
-      rect:
-        serializedVersion: 2
-        x: 1122
+        x: 21
         y: 0
-        width: 643
-        height: 418
-      alignment: 9
-      pivot: {x: 0.033577498, y: 0.08273788}
+        width: 189
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -94.5, y: 157.5}
+        - {x: -94.5, y: -157.5}
+        - {x: 94.5, y: -157.5}
+        - {x: 94.5, y: 157.5}
       physicsShape: []
       tessellationDetail: 0
     outline: []

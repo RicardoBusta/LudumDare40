@@ -8,13 +8,9 @@ namespace Game.Scripts
     public class GameManager : MonoBehaviour
     {
         public PlayerController Player;
-
         public float PlayerSpeed;
-
         public GameObject[] ObstaclesPrefabs;
-
         public Dictionary<int, List<GameObject>> ObstaclePools = new Dictionary<int, List<GameObject>>();
-
         public float ObstacleCooldown = 2;
 
         public static GameManager Instance
@@ -65,7 +61,7 @@ namespace Game.Scripts
             {
                 var obj = GetObjectFromPool(Random.Range(0, ObstaclesPrefabs.Length));
                 var pos = new Vector3();
-                obj.transform.position = 
+                obj.transform.position = new Vector3(12,Random.Range(-3,3),0); 
                 yield return new WaitForSeconds(ObstacleCooldown);
             }
         }

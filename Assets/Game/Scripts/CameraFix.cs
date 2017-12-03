@@ -1,30 +1,35 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
-[ExecuteInEditMode]
-public class CameraFix : MonoBehaviour
+namespace Game.Scripts
 {
-	private Camera camera;
+	[ExecuteInEditMode]
+	public class CameraFix : MonoBehaviour
+	{
+		private new Camera camera;
 
-	private float previousAspect = 0;
+		private float previousAspect = 0;
+
+		public float CameraWidth = 13.66f;
 	
-	private void Start()
-	{
-		camera = GetComponent<Camera>();
-		if (camera == null)
+		private void Start()
 		{
-			throw new MissingComponentException("Camera");
+			camera = GetComponent<Camera>();
+			if (camera == null)
+			{
+				throw new MissingComponentException("Camera");
+			}
 		}
-	}
 
-	private void Update()
-	{
-		if (camera.aspect != previousAspect)
+		private void Update()
 		{
+			if (Math.Abs(camera.aspect - previousAspect) < 0.1f)
+			{
+				return;
+			}
+			
 			previousAspect = camera.aspect;
-
-			camera.orthographicSize = 9 / previousAspect;
+			camera.orthographicSize = CameraWidth / previousAspect;
 		}
 	}
 }

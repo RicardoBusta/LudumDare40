@@ -17,10 +17,5 @@ namespace Game.Scripts
             player.ChangeSize(FoodAmount);
             gameObject.SetActive(false);
         }
-
-        private void Update()
-        {
-            transform.position += Vector3.left * GameManager.Instance.PlayerSpeed * Time.deltaTime;
-        }
     }
 }

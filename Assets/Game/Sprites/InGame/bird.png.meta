@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: dc30d32dfd381c74696ef208ae149567
+timeCreated: 1512321682
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bird_0
+    21300002: bird_1
+    21300004: bird_2
+    21300006: bird_3
+    21300008: bird_4
+    21300010: bird_5
+    21300012: bird_6
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bird_0
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 474
+        width: 517
+        height: 307
+      alignment: 9
+      pivot: {x: 0.9344958, y: 0.38088462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 153.5586, y: 153.5}
+        - {x: -13.680481, y: 153.5}
+        - {x: -258.5, y: 138.5}
+        - {x: -258.5, y: 93.48926}
+        - {x: -214.5, y: 58.5}
+        - {x: 32.567657, y: -31.913452}
+        - {x: 107.23151, y: -153.5}
+        - {x: 223.5, y: -153.5}
+        - {x: 258.5, y: -71.5}
+        - {x: 258.5, y: -28.6203}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bird_1
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 665
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.14702296, y: 0.87314636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.6516113, y: 59.5}
+        - {x: -37, y: 59.5}
+        - {x: -37, y: -35.441223}
+        - {x: 2.208496, y: -59.5}
+        - {x: 37, y: -59.5}
+        - {x: 37, y: -5.6245728}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bird_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 285
+        height: 437
+      alignment: 9
+      pivot: {x: 0.6420576, y: 0.060677256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -142.5, y: -136.41272}
+        - {x: 14.5, y: -218.5}
+        - {x: 142.5, y: -218.5}
+        - {x: 142.5, y: -71.20978}
+        - {x: 20.58905, y: -4.4082947}
+        - {x: -90.0778, y: 218.5}
+        - {x: -142.5, y: 218.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bird_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 276
+        width: 333
+        height: 324
+      alignment: 9
+      pivot: {x: 0.8804303, y: 0.8829359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.25946, y: 162}
+        - {x: -166.5, y: 65.8414}
+        - {x: -166.5, y: -39.931488}
+        - {x: -2.423645, y: -162}
+        - {x: 55.5, y: -162}
+        - {x: 166.5, y: 11}
+        - {x: 166.5, y: 147.46991}
+        - {x: 134.5, y: 162}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bird_4
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 116
+        width: 325
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73.40155, y: 164}
+        - {x: -110.19037, y: 164}
+        - {x: -162.5, y: 89.24173}
+        - {x: -162.5, y: -64.09972}
+        - {x: -75.640015, y: -164}
+        - {x: 125.5, y: -164}
+        - {x: 162.5, y: -119}
+        - {x: 162.5, y: 90}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bird_5
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 222
+        height: 273
+      alignment: 9
+      pivot: {x: 0.20585275, y: 0.1699085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: -30.471962}
+        - {x: -23.316223, y: 136.5}
+        - {x: -60, y: 136.5}
+        - {x: -111, y: 44.341415}
+        - {x: -111, y: -136.5}
+        - {x: 27, y: -136.5}
+        - {x: 111, y: -108.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bird_6
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 29
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.2398, y: 56}
+        - {x: -52, y: 7}
+        - {x: -52, y: -56}
+        - {x: 52, y: -56}
+        - {x: 52, y: -7}
+        - {x: 6, y: 56}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
