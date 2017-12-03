@@ -16,9 +16,15 @@ namespace Game.Scripts
         public float MinHeight = -4.5f;
         public float MaxHeight = 4.5f;
 
-        private const float TRANSITION_TIME = 3;
+        private const float TRANSITION_TIME = 1;
 
         public Text PointMultiplier;
+
+        public Material BirdMaterial;
+
+        public AudioClip FlapSound;
+
+        private const string MULTIPLIER_FORMAT = "Multiplier: {0}x";
 
         public float Multiplier
         {
@@ -30,14 +36,17 @@ namespace Game.Scripts
 
         private void Start()
         {
+            BirdMaterial.SetFloat("_Hue", Random.Range(0.0f, 1.0f));
+
             currentSize = MinSize;
             currentSpriteSize = MinSize;
             Scale(currentSize);
-            PointMultiplier.text = currentSize.ToString(CultureInfo.InvariantCulture) + "x";
+            PointMultiplier.text = string.Format(MULTIPLIER_FORMAT,currentSize.ToString("0.0"));
         }
 
         public void Tap()
         {
+            SoundManager.Instance.PlayAudio(FlapSound, pitch: 0.8f, volume: 0.75f);
             speed = TapSpeed;
         }
 
@@ -45,12 +54,12 @@ namespace Game.Scripts
         {
             if (currentSize <= MinSize && amount < 0)
             {
-                gameObject.SetActive(false);
+                Die();
             }
 
             var previousSize = currentSize;
             currentSize = Mathf.Clamp(currentSize + amount, MinSize, MaxSize);
-            PointMultiplier.text = currentSize.ToString(CultureInfo.InvariantCulture) + "x";
+            PointMultiplier.text = string.Format(MULTIPLIER_FORMAT,currentSize.ToString("0.0"));
         }
 
         private void Update()
@@ -61,6 +70,7 @@ namespace Game.Scripts
             transform.position = pos;
             currentSpriteSize = Mathf.MoveTowards(currentSpriteSize, currentSize, Time.deltaTime);
             Scale(currentSpriteSize);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, 0, 5*speed), 0.1f);
         }
 
         private void Scale(float scale)
@@ -70,6 +80,12 @@ namespace Game.Scripts
             {
                 child.localScale = Vector3.one * 0.75f / scale;
             }
+        }
+
+        private void Die()
+        {
+            gameObject.SetActive(false);
+            GameManager.Instance.GameOver();
         }
     }
 }

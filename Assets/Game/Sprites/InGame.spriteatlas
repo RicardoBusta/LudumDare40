@@ -10,13 +10,13 @@ SpriteAtlas:
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
-      compressionQuality: 50
+      compressionQuality: 100
       maxTextureSize: 2048
       textureCompression: 2
       filterMode: 1
       generateMipMaps: 1
       readable: 0
-      crunchedCompression: 1
+      crunchedCompression: 0
       sRGB: 1
     platformSettings: []
     packingParameters:
@@ -28,43 +28,62 @@ SpriteAtlas:
       enableTightPacking: 1
     packedHash:
       serializedVersion: 2
-      Hash: 1d424bc8104c12154d7a283d2005a1c2
+      Hash: b67bcb560805e16f0aa3df88d6f16c57
     variantMultiplier: 1
     bindAsDefault: 1
-    finalFormat: 25
-    hashString: 1d424bc8104c12154d7a283d2005a1c2
-    totalSpriteSurfaceArea: 771095
+    finalFormat: 47
+    hashString: b67bcb560805e16f0aa3df88d6f16c57
+    totalSpriteSurfaceArea: 1240059
     packables:
     - {fileID: 102900000, guid: d1b3933438e3ed54db622c47cdf46309, type: 3}
+    - {fileID: 102900000, guid: 0b6299e121207be4a8d63abf1679477d, type: 3}
     packedSpriteRenderDataKeys:
     - dc30d32dfd381c74696ef208ae149567: 21300000
-    - b9aae8fa3a103e041b9e61a314febd1a: 21300000
+    - fcb7446013e0df94db1f075352d24aa8: 21300002
+    - fcb7446013e0df94db1f075352d24aa8: 21300000
     - dc30d32dfd381c74696ef208ae149567: 21300004
+    - b6ebac72bc999284abaf77a5f4df3ea8: 21300000
     - dc30d32dfd381c74696ef208ae149567: 21300006
     - dc30d32dfd381c74696ef208ae149567: 21300008
+    - b9aae8fa3a103e041b9e61a314febd1a: 21300000
     - dc30d32dfd381c74696ef208ae149567: 21300010
+    - b9aae8fa3a103e041b9e61a314febd1a: 21300002
+    - 6655ff73660725542a63086b26d90af4: 21300000
     - df112471f25764c4cb556b06e7d86d25: 21300000
+    - 9f8b98864293d8743aee3b451d190f17: 21300000
     - dc30d32dfd381c74696ef208ae149567: 21300012
     - dc30d32dfd381c74696ef208ae149567: 21300002
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: dc30d32dfd381c74696ef208ae149567, type: 3}
-  - {fileID: 21300000, guid: b9aae8fa3a103e041b9e61a314febd1a, type: 3}
+  - {fileID: 21300002, guid: fcb7446013e0df94db1f075352d24aa8, type: 3}
+  - {fileID: 21300000, guid: fcb7446013e0df94db1f075352d24aa8, type: 3}
   - {fileID: 21300004, guid: dc30d32dfd381c74696ef208ae149567, type: 3}
+  - {fileID: 21300000, guid: b6ebac72bc999284abaf77a5f4df3ea8, type: 3}
   - {fileID: 21300006, guid: dc30d32dfd381c74696ef208ae149567, type: 3}
   - {fileID: 21300008, guid: dc30d32dfd381c74696ef208ae149567, type: 3}
+  - {fileID: 21300000, guid: b9aae8fa3a103e041b9e61a314febd1a, type: 3}
   - {fileID: 21300010, guid: dc30d32dfd381c74696ef208ae149567, type: 3}
+  - {fileID: 21300002, guid: b9aae8fa3a103e041b9e61a314febd1a, type: 3}
+  - {fileID: 21300000, guid: 6655ff73660725542a63086b26d90af4, type: 3}
   - {fileID: 21300000, guid: df112471f25764c4cb556b06e7d86d25, type: 3}
+  - {fileID: 21300000, guid: 9f8b98864293d8743aee3b451d190f17, type: 3}
   - {fileID: 21300012, guid: dc30d32dfd381c74696ef208ae149567, type: 3}
   - {fileID: 21300002, guid: dc30d32dfd381c74696ef208ae149567, type: 3}
   m_PackedSpriteNamesToIndex:
   - bird_0
-  - aspargus
+  - otherbuttons_1
+  - otherbuttons_0
   - bird_2
+  - bg
   - bird_3
   - bird_4
+  - aspargus_0
   - bird_5
+  - aspargus_1
+  - muffin_blue
   - muffin
+  - muffin_gold
   - bird_6
   - bird_1
   m_Tag: InGame
