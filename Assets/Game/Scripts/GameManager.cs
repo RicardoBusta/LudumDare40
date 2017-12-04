@@ -51,7 +51,7 @@ namespace Game.Scripts
 
             StartCoroutine(SpawnObstacleRoutine());
 
-            HighScore.text = string.Format(HIGH_SCORE_TEXT, PlayerPrefs.GetInt("HighScore", 0).ToString("000000000"));
+            HighScore.text = string.Format(HIGH_SCORE_TEXT, PlayerPrefs.GetFloat("HighScore", 0).ToString("000000000"));
         }
 
         private void Update()
@@ -102,8 +102,10 @@ namespace Game.Scripts
         public void GameOver()
         {
             GameOverScreen.SetActive(true);
+            Debug.Log("Ouch!" + PlayerPrefs.GetFloat("HighScore", 0) + currentScore);
             if (PlayerPrefs.GetFloat("HighScore", 0) < currentScore)
             {
+                Debug.Log("High Score! " + currentScore);
                 PlayerPrefs.SetFloat("HighScore", currentScore);
             }
             Pause = true;
