@@ -1,0 +1,11 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "fatty.data.unityweb",
+"asmCodeUrl": "fatty.asm.code.unityweb",
+"asmMemoryUrl": "fatty.asm.memory.unityweb",
+"asmFrameworkUrl": "fatty.asm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#1F2429"
+}
